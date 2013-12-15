@@ -76,6 +76,25 @@ Siddley can be contacted at <https://github.com/Siddley/Enhanced.HTML.CFML>
 					<string>#FFFFFF</string><!-- White -->
 				</dict>
 			</dict>
+			<dict>
+				<key>name</key>
+				<string>cfml: cfscript Comment</string>
+				<key>scope</key>
+				<string>source.cfscript.cfc text.html.cfm.embedded.cfml meta.scope.between-output-tags.cfml invalid.illegal.unescaped.hash.cfml</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>normal</string>
+					<key>foreground</key>
+					<string>#000000</string><!-- Grey -->
+					<key>background</key>
+					<string>#FFFFFF</string><!-- White -->
+				</dict>
+			</dict>
+			
+			
+			
+
 			<!-- html comments -->
 			<dict>
 				<key>name</key>
@@ -218,6 +237,19 @@ Siddley can be contacted at <https://github.com/Siddley/Enhanced.HTML.CFML>
 					<string>#800000</string><!-- burnt umber -->
 				</dict>
 			</dict>
+			<dict>
+				<key>name</key>
+				<string>sql: query keywords</string>
+				<key>scope</key>
+				<string>source.cfscript.cfc text.html.cfm.embedded.cfml meta.scope.between-output-tags.cfml source.js.embedded.html meta.tag.inline.cf.any.cfml source.cfscript.embedded.cfml variable.other.set.cfscript</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>normal</string>
+					<key>foreground</key>
+					<string>#800000</string><!-- burnt umber -->
+				</dict>
+			</dict>
 			<!-- variables between cfoutput and cfmail tags -->
 			<dict>
 				<key>name</key>
@@ -308,6 +340,58 @@ Siddley can be contacted at <https://github.com/Siddley/Enhanced.HTML.CFML>
 				<string>cfml: function names and braces between tags</string>
 				<key>scope</key>
 				<string>meta.scope.between-output-tags.cfml support.function,meta.scope.between-output-tags.cfml entity.name.function-call.cfscript,meta.scope.between-mail-tags.cfml support.function,meta.scope.between-mail-tags.cfml entity.name.function-call.cfscript,meta.scope.between-output-tags.cfml source.cfscript.embedded.html entity.name.function-call.cfscript,meta.scope.between-output-tags.cfml source.cfscript.embedded.html support.function,meta.scope.between-mail-tags.cfml source.cfscript.embedded.html entity.name.function-call.cfscript,meta.scope.between-mail-tags.cfml source.cfscript.embedded.html support.function</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>normal</string>
+					<key>foreground</key>
+					<string>#800000</string><!-- blueberry -->
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>cfml: function names and braces between tags</string>
+				<key>scope</key>
+				<string>source.cfscript.cfc text.html.cfm.embedded.cfml meta.tag.inline.cf.conditional.cfml source.cfscript.embedded.cfml keyword.operator.decision.cfscript</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>normal</string>
+					<key>foreground</key>
+					<string>#800000</string><!-- blueberry -->
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>cfml: function names and braces between tags</string>
+				<key>scope</key>
+				<string>source.cfscript.cfc text.html.cfm.embedded.cfml meta.tag.block.cf.conditional.cfml source.cfscript.embedded.cfml keyword.operator.decision.cfscript</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>normal</string>
+					<key>foreground</key>
+					<string>#800000</string><!-- blueberry -->
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>cfml: function names and braces between tags</string>
+				<key>scope</key>
+				<string>source.cfscript.cfc text.html.cfm.embedded.cfml meta.tag.inline.cf.any.cfml source.cfscript.embedded.cfml keyword.operator.concat.cfscript</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>normal</string>
+					<key>foreground</key>
+					<string>#800000</string><!-- blueberry -->
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>cfml: function names and braces between tags</string>
+				<key>scope</key>
+				<string>source.cfscript.cfc text.html.cfm.embedded.cfml meta.tag.inline.cf.any.cfml source.cfscript.embedded.cfml keyword.operator.assignment.cfscript</string>
 				<key>settings</key>
 				<dict>
 					<key>fontStyle</key>
@@ -537,6 +621,125 @@ Siddley can be contacted at <https://github.com/Siddley/Enhanced.HTML.CFML>
 					<string>#800000</string><!-- blueberry -->
 				</dict>
 			</dict>
+			
+			<dict>
+				<key>name</key>
+				<string>xml: html: quoted string</string>
+				<key>scope</key>
+				<string>source.cfscript.cfc text.html.cfm.embedded.cfml meta.scope.between-output-tags.cfml meta.tag.inline.cf.any.cfml source.cfscript.embedded.cfml</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>normal</string>
+					<key>foreground</key>
+					<string>#800000</string><!-- blueberry -->
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>xml: html: quoted string</string>
+				<key>scope</key>
+				<string>source.cfscript.cfc text.html.cfm.embedded.cfml meta.scope.between-output-tags.cfml meta.tag.inline.cf.any.cfml source.cfscript.embedded.cfml constant.other.cfscript</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>normal</string>
+					<key>foreground</key>
+					<string>#800000</string><!-- blueberry -->
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>xml: html: quoted string</string>
+				<key>scope</key>
+				<string>source.cfscript.cfc text.html.cfm.embedded.cfml meta.scope.between-output-tags.cfml meta.tag.inline.cf.any.cfml source.cfscript.embedded.cfml variable.other.cfscript</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>normal</string>
+					<key>foreground</key>
+					<string>#800000</string><!-- blueberry -->
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>xml: html: quoted string</string>
+				<key>scope</key>
+				<string>source.cfscript.cfc text.html.cfm.embedded.cfml meta.scope.between-output-tags.cfml meta.tag.inline.form.html meta.tag.block.cf.conditional.cfml source.cfscript.embedded.cfml constant.other.cfscript</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>normal</string>
+					<key>foreground</key>
+					<string>#800000</string><!-- blueberry -->
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>xml: html: quoted string</string>
+				<key>scope</key>
+				<string>source.cfscript.cfc text.html.cfm.embedded.cfml meta.scope.between-output-tags.cfml meta.tag.inline.form.html meta.tag.block.cf.conditional.cfml source.cfscript.embedded.cfml punctuation.definition.seperator.variable.cfscript</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>normal</string>
+					<key>foreground</key>
+					<string>#800000</string><!-- blueberry -->
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>xml: html: quoted string</string>
+				<key>scope</key>
+				<string>source.cfscript.cfc text.html.cfm.embedded.cfml meta.scope.between-output-tags.cfml meta.tag.inline.form.html meta.tag.block.cf.conditional.cfml source.cfscript.embedded.cfml variable.other.cfscript</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>normal</string>
+					<key>foreground</key>
+					<string>#800000</string><!-- blueberry -->
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>xml: html: quoted string</string>
+				<key>scope</key>
+				<string>source.cfscript.cfc text.html.cfm.embedded.cfml meta.scope.between-output-tags.cfml meta.tag.block.cf.conditional.cfml source.cfscript.embedded.cfml constant.other.cfscript</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>normal</string>
+					<key>foreground</key>
+					<string>#800000</string><!-- blueberry -->
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>xml: html: quoted string</string>
+				<key>scope</key>
+				<string>source.cfscript.cfc text.html.cfm.embedded.cfml meta.scope.between-output-tags.cfml meta.tag.block.cf.conditional.cfml source.cfscript.embedded.cfml punctuation.definition.seperator.variable.cfscript </string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>normal</string>
+					<key>foreground</key>
+					<string>#800000</string><!-- blueberry -->
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>xml: html: quoted string</string>
+				<key>scope</key>
+				<string>source.cfscript.cfc text.html.cfm.embedded.cfml meta.scope.between-output-tags.cfml meta.tag.block.cf.conditional.cfml source.cfscript.embedded.cfml variable.other.cfscript</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>normal</string>
+					<key>foreground</key>
+					<string>#800000</string><!-- blueberry -->
+				</dict>
+			</dict>
+
 			<dict>
 				<key>name</key>
 				<string>xml: html: quoted string</string>
@@ -711,6 +914,110 @@ Siddley can be contacted at <https://github.com/Siddley/Enhanced.HTML.CFML>
 				<key>name</key>
 				<string>xml: html: quoted string</string>
 				<key>scope</key>
+				<string>source.cfscript.cfc text.html.cfm.embedded.cfml meta.scope.between-output-tags.cfml meta.tag.block.form.html entity.name.tag.block.form.html</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string></string>
+					<key>foreground</key>
+					<string>#FF8000</string><!-- blueberry -->
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>xml: html: quoted string</string>
+				<key>scope</key>
+				<string>source.cfscript.cfc text.html.cfm.embedded.cfml meta.scope.between-output-tags.cfml meta.tag.block.form.html entity.other.attribute-name.html</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string></string>
+					<key>foreground</key>
+					<string>#FF8000</string><!-- blueberry -->
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>xml: html: quoted string</string>
+				<key>scope</key>
+				<string>source.cfscript.cfc text.html.cfm.embedded.cfml meta.scope.between-output-tags.cfml meta.tag.block.form.html punctuation.definition.tag.begin.html</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string></string>
+					<key>foreground</key>
+					<string>#FF8000</string><!-- blueberry -->
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>xml: html: quoted string</string>
+				<key>scope</key>
+				<string>source.cfscript.cfc text.html.cfm.embedded.cfml meta.scope.between-output-tags.cfml meta.tag.block.form.html punctuation.definition.tag.end.html</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string></string>
+					<key>foreground</key>
+					<string>#FF8000</string><!-- blueberry -->
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>xml: html: quoted string</string>
+				<key>scope</key>
+				<string>source.cfscript.cfc text.html.cfm.embedded.cfml meta.scope.between-output-tags.cfml meta.tag.block.form.html meta.attribute-with-value.id.html entity.other.attribute-name.id.html</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string></string>
+					<key>foreground</key>
+					<string>#FF8000</string><!-- blueberry -->
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>xml: html: quoted string</string>
+				<key>scope</key>
+				<string>source.cfscript.cfc text.html.cfm.embedded.cfml meta.scope.between-output-tags.cfml meta.tag.block.form.html</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string></string>
+					<key>foreground</key>
+					<string>#FF8000</string><!-- blueberry -->
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>xml: html: quoted string</string>
+				<key>scope</key>
+				<string>source.cfscript.cfc text.html.cfm.embedded.cfml meta.scope.between-output-tags.cfml meta.tag.inline.form.html punctuation.definition.tag.begin.html</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string></string>
+					<key>foreground</key>
+					<string>#FF8000</string><!-- blueberry -->
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>xml: html: quoted string</string>
+				<key>scope</key>
+				<string>source.cfscript.cfc text.html.cfm.embedded.cfml meta.scope.between-output-tags.cfml meta.tag.inline.form.html punctuation.definition.tag.end.html</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string></string>
+					<key>foreground</key>
+					<string>#FF8000</string><!-- blueberry -->
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>xml: html: quoted string</string>
+				<key>scope</key>
 				<string>source.cfscript.cfc text.html.cfm.embedded.cfml meta.scope.between-output-tags.cfml meta.tag.inline.form.html entity.other.attribute-name.html</string>
 				<key>settings</key>
 				<dict>
@@ -820,6 +1127,45 @@ Siddley can be contacted at <https://github.com/Siddley/Enhanced.HTML.CFML>
 				<string>xml: html: quoted string</string>
 				<key>scope</key>
 				<string>string.quoted.double.html, string.quoted.single.html,string.quoted.double.xml, string.quoted.single.xml</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string></string>
+					<key>foreground</key>
+					<string>#0000FF</string><!-- blueberry -->
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>xml: html: quoted string</string>
+				<key>scope</key>
+				<string>source.cfscript.cfc text.html.cfm.embedded.cfml meta.scope.between-output-tags.cfml meta.tag.inline.any.html entity.name.tag.inline.any.html</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string></string>
+					<key>foreground</key>
+					<string>#0000FF</string><!-- blueberry -->
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>xml: html: quoted string</string>
+				<key>scope</key>
+				<string>source.cfscript.cfc text.html.cfm.embedded.cfml meta.scope.between-output-tags.cfml meta.tag.inline.any.html punctuation.definition.tag.begin.html</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string></string>
+					<key>foreground</key>
+					<string>#0000FF</string><!-- blueberry -->
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>xml: html: quoted string</string>
+				<key>scope</key>
+				<string>source.cfscript.cfc text.html.cfm.embedded.cfml meta.scope.between-output-tags.cfml meta.tag.inline.any.html punctuation.definition.tag.end.html</string>
 				<key>settings</key>
 				<dict>
 					<key>fontStyle</key>
@@ -1151,6 +1497,160 @@ Siddley can be contacted at <https://github.com/Siddley/Enhanced.HTML.CFML>
 				<string>css: at-rules</string>
 				<key>scope</key>
 				<string>meta.at-rule.charset.css, meta.at-rule.font-face.css, meta.at-rule.import.css, meta.at-rule.media.css, punctuation.terminator.rule.css, punctuation.section.property-list.css, source.css</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#000000</string><!-- black -->
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>css: at-rules</string>
+				<key>scope</key>
+				<string>source.cfscript.cfc text.html.cfm.embedded.cfml meta.scope.between-output-tags.cfml meta.name.interpolated.hash.cfml source.cfscript.embedded.cfml meta.function-call.cfscript entity.name.function-call.cfscript</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#000000</string><!-- black -->
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>css: at-rules</string>
+				<key>scope</key>
+				<string>source.cfscript.cfc text.html.cfm.embedded.cfml meta.scope.between-output-tags.cfml meta.tag.inline.any.html entity.other.attribute-name.html</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#000080</string><!-- black -->
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>css: at-rules</string>
+				<key>scope</key>
+				<string>source.cfscript.cfc text.html.cfm.embedded.cfml source.sql.embedded.cfml meta.tag.inline.cf.query-param.cfml string.quoted.double.cfml meta.name.interpolated.hash.cfml source.cfscript.embedded.cfml constant.other.cfscript</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#000080</string><!-- black -->
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>css: at-rules</string>
+				<key>scope</key>
+				<string>source.cfscript.cfc text.html.cfm.embedded.cfml source.sql.embedded.cfml meta.tag.inline.cf.query-param.cfml string.quoted.double.cfml meta.name.interpolated.hash.cfml source.cfscript.embedded.cfml variable.other.cfscript</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#000080</string><!-- black -->
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>css: at-rules</string>
+				<key>scope</key>
+				<string>meta.tag.block.any.html entity.name.tag.block.any.html</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#000080</string><!-- black -->
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>css: at-rules</string>
+				<key>scope</key>
+				<string>meta.tag.block.any.html entity.other.attribute-name.html</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#000080</string><!-- black -->
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>css: at-rules</string>
+				<key>scope</key>
+				<string>meta.tag.block.any.html meta.attribute-with-value.id.html entity.other.attribute-name.id.html</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#000080</string><!-- black -->
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>css: at-rules</string>
+				<key>scope</key>
+				<string>entity.name.tag.table.html</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#008080</string><!-- black -->
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>css: at-rules</string>
+				<key>scope</key>
+				<string>meta.tag.inline.table.html punctuation.definition.tag.begin.html</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#008080</string><!-- black -->
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>css: at-rules</string>
+				<key>scope</key>
+				<string>meta.tag.inline.table.html punctuation.definition.tag.end.html</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#008080</string><!-- black -->
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>css: at-rules</string>
+				<key>scope</key>
+				<string>meta.tag.inline.table.html entity.other.attribute-name.html</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#008080</string><!-- black -->
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>css: at-rules</string>
+				<key>scope</key>
+				<string>source.cfscript.cfc text.html.cfm.embedded.cfml meta.tag.inline.cf.any.cfml source.cfscript.embedded.cfml string.quoted.double.cfscript meta.inline.hash.cfscript source.cfscript.embedded.cfscript meta.function-call.cfscript constant.other.cfscript</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#000080</string><!-- black -->
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>css: at-rules</string>
+				<key>scope</key>
+				<string>source.cfscript.cfc text.html.cfm.embedded.cfml source.sql.embedded.cfml constant.other.database-name.sql</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#000000</string><!-- black -->
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>css: at-rules</string>
+				<key>scope</key>
+				<string>source.cfscript.cfc text.html.cfm.embedded.cfml source.sql.embedded.cfml constant.other.table-name.sql</string>
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
